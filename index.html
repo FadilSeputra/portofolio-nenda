@@ -179,12 +179,89 @@
     <section class="projects-section section-padding" id="projects">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Proyek</span>
-                <h2 class="section-title">Sorotan Karya</h2>
+                <span class="section-tag">Proyek & Riset</span>
+                <h2 class="section-title">Sorotan Karya Utama</h2>
             </div>
             
             <div class="projects-layout">
-                <!-- Braisee Project (Featured) -->
+                <!-- Skripsi Card -->
+                <div class="project-large-card glass-card">
+                    <div class="project-header-container">
+                        <div class="project-badge">Tugas Akhir / Skripsi</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analisis Komparatif Efisiensi Waktu Deployment Jenkins vs GitHub Actions</h3>
+                        <p class="project-subtitle-eng">Perbandingan Performa Dua Engine CI/CD Utama</p>
+                        <p class="project-desc">Riset skripsi mandiri (STMIK IKMI Cirebon) yang mengevaluasi efisiensi waktu build & deploy API Machine Learning Braisee menggunakan runner persisten (Jenkins) vs runner ephemeral (GitHub Actions) pada Google Cloud Run.</p>
+                        
+                        <div class="project-stats-grid">
+                            <div class="p-stat">
+                                <span class="p-stat-val">13%</span>
+                                <span class="p-stat-lbl">Uji Plagiarisme</span>
+                            </div>
+                            <div class="p-stat">
+                                <span class="p-stat-val">~48s</span>
+                                <span class="p-stat-lbl">Rerata Jenkins</span>
+                            </div>
+                            <div class="p-stat">
+                                <span class="p-stat-val">6 SKS</span>
+                                <span class="p-stat-lbl">Beban Studi (B)</span>
+                            </div>
+                        </div>
+
+                        <ul class="project-bullets">
+                            <li><strong>Fokus Riset:</strong> Menganalisis dampak caching Docker layer dan environment re-initialization pada kecepatan deployment.</li>
+                            <li><strong>Temuan:</strong> Jenkins lebih unggul 2-3x lipat dalam waktu eksekusi build karena optimalisasi caching di runner lokal persisten.</li>
+                            <li><strong>Pembimbing:</strong> Odi Nurdiawan, M.Kom & Arif Rinaldi Dikananda, M.Kom.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Jurnal Card -->
+                <div class="project-large-card glass-card">
+                    <div class="project-header-container">
+                        <div class="project-badge journal-badge">Jurnal Ilmiah Terpublikasi</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analysis of the Effectiveness of Manual Deployment and CI/CD Github Actions</h3>
+                        <p class="project-subtitle-eng">Diterbitkan di JAIEA, Februari 2026</p>
+                        <p class="project-desc">Riset kolaboratif yang mengkaji perbandingan kuantitatif antara metode deployment manual (gcloud CLI) dengan otomatisasi workflow (GitHub Actions) pada arsitektur serverless Google Cloud Run.</p>
+                        
+                        <div class="project-stats-grid">
+                            <div class="p-stat">
+                                <span class="p-stat-val">JAIEA</span>
+                                <span class="p-stat-lbl">Jurnal Nasional</span>
+                            </div>
+                            <div class="p-stat">
+                                <span class="p-stat-val">40-60%</span>
+                                <span class="p-stat-lbl">Efisiensi Waktu</span>
+                            </div>
+                            <div class="p-stat">
+                                <span class="p-stat-val">100%</span>
+                                <span class="p-stat-lbl">Success Rate</span>
+                            </div>
+                        </div>
+
+                        <ul class="project-bullets">
+                            <li><strong>Fokus Riset:</strong> Menilai aspek efisiensi waktu, stabilitas sistem, dan kerentanan terhadap human error.</li>
+                            <li><strong>Temuan:</strong> Otomatisasi GitHub Actions memangkas durasi manual (297-364s) menjadi (111-167s) serta mengeliminasi resiko salah ketik CLI.</li>
+                            <li><strong>Tautan Publikasi:</strong> ISSN: 2808-4519, Vol 5 No 2.</li>
+                        </ul>
+                        
+                        <div class="project-footer-links">
+                            <a href="https://ioinformatic.org/index.php/JAIEA/article/view/1916" target="_blank" class="project-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                                Lihat Jurnal
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Braisee Project -->
                 <div class="project-large-card glass-card">
                     <div class="project-header-container">
                         <img src="assets/braisee_logo.png" alt="BraiSee Logo" class="project-logo">
@@ -192,13 +269,14 @@
                     </div>
                     <div class="project-content">
                         <h3 class="project-title">Braisee – ML-Based Cloud-Native Application</h3>
-                        <p class="project-desc">Merancang dan membangun arsitektur backend cloud untuk aplikasi Braisee yang mengintegrasikan model machine learning dengan antarmuka mobile.</p>
+                        <p class="project-subtitle-eng">Aplikasi Penerjemah Kode Braille</p>
+                        <p class="project-desc">Pengembangan backend berbasis cloud untuk aplikasi Braisee, mendistribusikan model machine learning sebagai REST API di Google Cloud Run menggunakan FastAPI dan Docker.</p>
                         
                         <ul class="project-bullets">
-                            <li>Mendeploy model machine learning sebagai REST API yang skalabel pada <strong>Google Cloud Run</strong> menggunakan <strong>FastAPI</strong>.</li>
-                            <li>Mengonfigurasi <strong>GCP Artifact Registry</strong> untuk memanajemen versi docker container images secara terstruktur.</li>
-                            <li>Mengotomatiskan build, push, dan release container image dengan konfigurasi pipeline <strong>CI/CD</strong> menggunakan <strong>GitHub Actions</strong> dan <strong>Jenkins</strong>.</li>
-                            <li>Mengamankan ketersediaan backend dan hak akses menggunakan kontrol kebijakan <strong>IAM</strong> dan konfigurasi environment variables.</li>
+                            <li>Mendeploy model machine learning inferensi sebagai REST API yang skalabel dengan <strong>FastAPI</strong>.</li>
+                            <li>Mengonfigurasi <strong>GCP Artifact Registry</strong> untuk versioning container images.</li>
+                            <li>Mengintegrasikan pipeline otomatis <strong>CI/CD</strong> menggunakan <strong>GitHub Actions</strong> dan <strong>Jenkins</strong>.</li>
+                            <li>Mengamankan ketersediaan backend menggunakan otorisasi <strong>IAM</strong> dan environment variables.</li>
                         </ul>
                         
                         <div class="project-tech-stack">
@@ -209,24 +287,6 @@
                             <span>GitHub Actions</span>
                             <span>Jenkins</span>
                         </div>
-                    </div>
-                </div>
-
-                <div class="projects-secondary-grid">
-                    <!-- Project 2: Skripsi -->
-                    <div class="project-small-card glass-card">
-                        <div class="card-bg-decoration"></div>
-                        <h4>Skripsi - STMIK IKMI Cirebon</h4>
-                        <p>Menyelesaikan penelitian tugas akhir sarjana informatika bernilai 6 SKS (Grade B) dengan studi literature review terstruktur (Grade A/B) dan metode penelitian terstandarisasi (Grade A).</p>
-                        <span class="project-link">Metodologi & Studi Literatur</span>
-                    </div>
-
-                    <!-- Project 3: Enterprise Networking & IoT -->
-                    <div class="project-small-card glass-card">
-                        <div class="card-bg-decoration"></div>
-                        <h4>Enterprise Network & IoT Automation</h4>
-                        <p>Merancang arsitektur jaringan kantor tingkat lanjut (Jaringan Expert - Grade A) terintegrasi dengan otomatisasi sensor cerdas berbasis Internet of Things (Grade B).</p>
-                        <span class="project-link">Infrastruktur & IoT</span>
                     </div>
                 </div>
             </div>
