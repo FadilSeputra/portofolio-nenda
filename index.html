@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio Profesional Nenda Alfadil Seputra - Fresh Graduate Teknik Informatika STMIK IKMI Cirebon. Cloud Computing & DevOps Specialist.">
+    <meta name="author" content="Nenda Alfadil Seputra">
+    <meta name="keywords" content="Nenda Alfadil Seputra, Portofolio, Cloud Computing, DevOps, GCP, Bangkit Academy, STMIK IKMI Cirebon">
+    <title>Nenda Alfadil Seputra | Cloud & DevOps Specialist</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effect Elements -->
+    <div class="bg-glow" id="bg-glow"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Nenda<span class="logo-accent">.Dev /&gt;</span>
+            </a>
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#experience" class="nav-link">Pengalaman</a>
+                <a href="#projects" class="nav-link">Proyek</a>
+                <a href="#skills" class="nav-link">Keahlian</a>
+                <a href="#transcript" class="nav-link">Akademik</a>
+                <a href="#certificates" class="nav-link">Sertifikat</a>
+                <a href="#contact" class="nav-btn">Hubungi Saya</a>
+            </nav>
+            <button class="mobile-menu-btn" id="menu-btn" aria-label="Menu Utama">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#about" class="mobile-nav-link">Tentang</a>
+        <a href="#experience" class="mobile-nav-link">Pengalaman</a>
+        <a href="#projects" class="mobile-nav-link">Proyek</a>
+        <a href="#skills" class="mobile-nav-link">Keahlian</a>
+        <a href="#transcript" class="mobile-nav-link">Akademik</a>
+        <a href="#certificates" class="mobile-nav-link">Sertifikat</a>
+        <a href="#contact" class="mobile-btn">Hubungi Saya</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge">Cloud Computing & DevOps</div>
+                <h1 class="hero-title">
+                    Halo, Saya <span class="gradient-text">Nenda Alfadil Seputra</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Fresh Graduate Teknik Informatika (IPK 3.45/4.00) dari STMIK IKMI Cirebon. Memiliki pengalaman praktis dalam Cloud Computing & DevOps melalui program Bangkit Academy (Google, GoTo, Traveloka).
+                </p>
+                <div class="hero-socials">
+                    <a href="https://github.com/FadilSeputra" target="_blank" aria-label="GitHub" class="social-icon-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nendaseputra" target="_blank" aria-label="LinkedIn" class="social-icon-btn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-card glass-card">
+                    <div class="stat-value gradient-text">3.45</div>
+                    <div class="stat-label">IPK Informatika</div>
+                </div>
+                <div class="stat-card glass-card">
+                    <div class="stat-value">900+</div>
+                    <div class="stat-label">Jam Pelatihan Cloud (Bangkit)</div>
+                </div>
+                <div class="stat-card glass-card">
+                    <div class="stat-value">2+</div>
+                    <div class="stat-label">Sertifikasi Cloud & DevOps</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Tentang Saya</span>
+                <h2 class="section-title">Bridging Code, Cloud, & Infrastructure</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text glass-card">
+                    <p>Saya adalah lulusan <strong>Teknik Informatika</strong> dari <strong>STMIK IKMI Cirebon</strong> (2022 - 2026) dengan spesialisasi di bidang **Cloud Computing** dan **DevOps**. Saya memiliki hasrat tinggi untuk merancang, mendeploy, dan memelihara aplikasi berskala besar pada infrastruktur cloud.</p>
+                    <p>Melalui program intensif **Bangkit Academy** (angkatan 2024/2025), saya mendalami ekosistem **Google Cloud Platform (GCP)**, orkestrasi kontainer menggunakan **Docker**, serta otomatisasi **CI/CD** menggunakan **GitHub Actions** dan **Jenkins**.</p>
+                    <p>Saya adalah individu yang kolaboratif, mudah beradaptasi, dan sangat antusias untuk menerapkan keahlian teknis saya pada lingkungan industri nyata guna memecahkan tantangan infrastruktur yang dinamis.</p>
+                </div>
+                <div class="about-details glass-card">
+                    <h3 class="details-title">Detail Kontak & Profil</h3>
+                    <ul class="details-list">
+                        <li>
+                            <span class="detail-label">Nama Lengkap</span>
+                            <span class="detail-val">Nenda Alfadil Seputra</span>
+                        </li>
+                        <li>
+                            <span class="detail-label">Pendidikan</span>
+                            <span class="detail-val">S1 Teknik Informatika</span>
+                        </li>
+                        <li>
+                            <span class="detail-label">IPK</span>
+                            <span class="detail-val">3.45 / 4.00</span>
+                        </li>
+                        <li>
+                            <span class="detail-label">Lokasi</span>
+                            <span class="detail-val">Cirebon, Jawa Barat, Indonesia</span>
+                        </li>
+                        <li>
+                            <span class="detail-label">Email</span>
+                            <span class="detail-val">nendaseputra@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section section-padding" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pengalaman</span>
+                <h2 class="section-title">Riwayat Karir & Pelatihan</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-header">
+                        <img src="assets/bangkit_logo.jpg" alt="Bangkit Logo" class="timeline-logo">
+                        <div>
+                            <div class="timeline-date">Sep 2024 - Jan 2025</div>
+                            <h3 class="timeline-title">Cloud Computing Cohort</h3>
+                            <h4 class="timeline-company">Bangkit Academy (led by Google, GoTo, and Traveloka)</h4>
+                        </div>
+                    </div>
+                    <p class="timeline-desc">Menyelesaikan 900+ jam pelatihan terstruktur mengenai layanan Google Cloud Platform, arsitektur cloud-native, dan metodologi DevOps.</p>
+                    <ul class="timeline-bullets">
+                        <li>Menguasai manajemen Compute Engine, Cloud Run, Artifact Registry, dan Identity & Access Management (IAM).</li>
+                        <li>Mendeploy aplikasi capstone berarsitektur microservices (Machine Learning, Mobile, Cloud) dengan skema CI/CD otomatis.</li>
+                        <li>Berpartisipasi aktif dalam sesi peningkatan soft skills, pemecahan masalah kritis, dan komunikasi profesional.</li>
+                        <li>Mendapatkan bimbingan dan paparan industri langsung dari para mentor Google, GoTo, dan Traveloka.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section section-padding" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Proyek</span>
+                <h2 class="section-title">Sorotan Karya</h2>
+            </div>
+            
+            <div class="projects-layout">
+                <!-- Braisee Project (Featured) -->
+                <div class="project-large-card glass-card">
+                    <div class="project-header-container">
+                        <img src="assets/braisee_logo.png" alt="BraiSee Logo" class="project-logo">
+                        <div class="project-badge">Capstone Project - Bangkit</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Braisee – ML-Based Cloud-Native Application</h3>
+                        <p class="project-desc">Merancang dan membangun arsitektur backend cloud untuk aplikasi Braisee yang mengintegrasikan model machine learning dengan antarmuka mobile.</p>
+                        
+                        <ul class="project-bullets">
+                            <li>Mendeploy model machine learning sebagai REST API yang skalabel pada <strong>Google Cloud Run</strong> menggunakan <strong>FastAPI</strong>.</li>
+                            <li>Mengonfigurasi <strong>GCP Artifact Registry</strong> untuk memanajemen versi docker container images secara terstruktur.</li>
+                            <li>Mengotomatiskan build, push, dan release container image dengan konfigurasi pipeline <strong>CI/CD</strong> menggunakan <strong>GitHub Actions</strong> dan <strong>Jenkins</strong>.</li>
+                            <li>Mengamankan ketersediaan backend dan hak akses menggunakan kontrol kebijakan <strong>IAM</strong> dan konfigurasi environment variables.</li>
+                        </ul>
+                        
+                        <div class="project-tech-stack">
+                            <span>GCP</span>
+                            <span>Cloud Run</span>
+                            <span>FastAPI</span>
+                            <span>Docker</span>
+                            <span>GitHub Actions</span>
+                            <span>Jenkins</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-secondary-grid">
+                    <!-- Project 2: Skripsi -->
+                    <div class="project-small-card glass-card">
+                        <div class="card-bg-decoration"></div>
+                        <h4>Skripsi - STMIK IKMI Cirebon</h4>
+                        <p>Menyelesaikan penelitian tugas akhir sarjana informatika bernilai 6 SKS (Grade B) dengan studi literature review terstruktur (Grade A/B) dan metode penelitian terstandarisasi (Grade A).</p>
+                        <span class="project-link">Metodologi & Studi Literatur</span>
+                    </div>
+
+                    <!-- Project 3: Enterprise Networking & IoT -->
+                    <div class="project-small-card glass-card">
+                        <div class="card-bg-decoration"></div>
+                        <h4>Enterprise Network & IoT Automation</h4>
+                        <p>Merancang arsitektur jaringan kantor tingkat lanjut (Jaringan Expert - Grade A) terintegrasi dengan otomatisasi sensor cerdas berbasis Internet of Things (Grade B).</p>
+                        <span class="project-link">Infrastruktur & IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section-padding" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Keahlian</span>
+                <h2 class="section-title">Kompetensi Teknis</h2>
+            </div>
+            
+            <div class="skills-grid-new">
+                <div class="skill-group glass-card">
+                    <h3>Cloud Platform</h3>
+                    <ul class="skill-list-new">
+                        <li>Google Cloud Platform (GCP)</li>
+                        <li>Google Cloud Run</li>
+                        <li>Google Compute Engine</li>
+                        <li>GCP Identity & Access Management (IAM)</li>
+                        <li>Artifact Registry & Cloud Build</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-group glass-card">
+                    <h3>DevOps & Automation</h3>
+                    <ul class="skill-list-new">
+                        <li>CI/CD Pipelines</li>
+                        <li>GitHub Actions</li>
+                        <li>Jenkins Automation</li>
+                        <li>Docker Containerization</li>
+                        <li>GitHub / Git Version Control</li>
+                    </ul>
+                </div>
+
+                <div class="skill-group glass-card">
+                    <h3>Tools & Others</h3>
+                    <ul class="skill-list-new">
+                        <li>FastAPI & Python</li>
+                        <li>SQL & Database Relasional</li>
+                        <li>Postman API Testing</li>
+                        <li>Linux / Sistem Operasi</li>
+                        <li>Microsoft Excel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Transcript Explorer Section -->
+    <section class="transcript-section section-padding" id="transcript">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Transkrip Akademik</span>
+                <h2 class="section-title">Rekam Jejak Perkuliahan</h2>
+                <p class="section-subtitle">Visualisasi dan filter mata kuliah inti yang telah ditempuh selama studi di STMIK IKMI Cirebon.</p>
+            </div>
+
+            <!-- Filters -->
+            <div class="transcript-filters">
+                <button class="filter-btn active" data-filter="all">Semua Mata Kuliah</button>
+                <button class="filter-btn" data-filter="dev">Web & Software Dev</button>
+                <button class="filter-btn" data-filter="ai">Data Science & AI</button>
+                <button class="filter-btn" data-filter="net">Jaringan & Cloud</button>
+                <button class="filter-btn" data-filter="best">Grade A (Unggulan)</button>
+            </div>
+
+            <!-- Search and Stats Bar -->
+            <div class="transcript-search-bar glass-card">
+                <div class="search-input-wrapper">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <input type="text" id="course-search" placeholder="Cari mata kuliah... (misal: 'Jaringan', 'Cloud')">
+                </div>
+                <div class="search-stats">
+                    Menampilkan <span id="displayed-count">0</span> dari <span id="total-count">0</span> mata kuliah
+                </div>
+            </div>
+
+            <!-- Transcript Grid -->
+            <div class="transcript-grid" id="transcript-grid">
+                <!-- Dynamically loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certificates-section section-padding" id="certificates">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sertifikasi</span>
+                <h2 class="section-title">Sertifikat Profesional</h2>
+            </div>
+            
+            <div class="certificates-grid">
+                <!-- Cert 1 -->
+                <div class="certificate-card glass-card">
+                    <div class="cert-icon-img-wrapper">
+                        <img src="assets/bangkit_logo.jpg" alt="Bangkit Logo" class="cert-icon-img">
+                    </div>
+                    <h3>Bangkit Academy Certificate</h3>
+                    <p class="cert-subtitle">Cloud Computing Cohort — 2025</p>
+                    <p class="cert-desc">Sertifikat kelulusan program pelatihan intensif selama 900+ jam mencakup materi Google Cloud Platform, DevOps, otomatisasi CI/CD, dan deployment aplikasi ML menggunakan FastAPI & Cloud Run.</p>
+                </div>
+                
+                <!-- Cert 2 -->
+                <div class="certificate-card glass-card">
+                    <div class="cert-icon">☁️</div>
+                    <h3>Google Cloud Skill Boost</h3>
+                    <p class="cert-subtitle">Google Cloud Platform — 2024</p>
+                    <p class="cert-desc">Penyelesaian berbagai hands-on labs & quests untuk layanan GCP seperti Compute Engine, Cloud Run, Cloud Build, IAM, dan praktek keamanan cloud.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <span class="section-tag">Kontak</span>
+                <h2 class="section-title">Mari Berkolaborasi!</h2>
+                <p class="contact-intro">Saya selalu terbuka untuk berdiskusi tentang peluang karir di bidang Cloud Engineering, DevOps, proyek kolaboratif, atau sekadar bertukar pikiran mengenai teknologi.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-method-card glass-card">
+                        <div class="method-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>nendaseputra@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method-card glass-card">
+                        <div class="method-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>+62 896 8951 6416</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-method-card glass-card">
+                        <div class="method-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Ciledug, Cirebon, Jawa Barat, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper glass-card">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="form-name">Nama Lengkap</label>
+                        <input type="text" id="form-name" required placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-email">Alamat Email</label>
+                        <input type="email" id="form-email" required placeholder="nama@perusahaan.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="form-message">Pesan Anda</label>
+                        <textarea id="form-message" rows="5" required placeholder="Tuliskan pesan atau tawaran kolaborasi Anda..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="form-submit">
+                        Kirim Pesan
+                    </button>
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Nenda Alfadil Seputra. All rights reserved.</p>
+            <p class="footer-sub">Teknik Informatika - STMIK IKMI Cirebon | Bangkit Academy Alumnus</p>
+        </div>
+    </footer>
+
+    <!-- App Logic JS -->
+    <script src="app.js"></script>
+</body>
+</html>
